@@ -1,0 +1,63 @@
+/* =========================================
+   The Narrating Mime
+   Main Website Styles
+   ========================================= */
+
+body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #f7f4ee;
+    color: #2b2b2b;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #202020;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+header p {
+    margin: 8px 0 0;
+    font-size: 1.1rem;
+}
+
+nav {
+    background-color: #333333;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+footer {
+    background-color: #202020;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
