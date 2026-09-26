@@ -571,3 +571,49 @@ footer p {
     }
 
 }
+
+/* Source text library */
+
+.source-library-item {
+    max-width: 800px;
+    margin: 45px auto;
+    padding: 30px;
+    background-color: #ebe5d9;
+    border: 1px solid #d2c9bb;
+    border-radius: 4px;
+}
+
+.source-library-item h3 {
+    margin-top: 0;
+    font-size: 1.7rem;
+}
+
+.source-library-author {
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+
+.source-library-series {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.source-language {
+    margin-top: 35px;
+    padding-top: 20px;
+    border-top: 1px solid #d2c9bb;
+}
+
+.source-language h4 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.source-language .download-area {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 15px;
+}
