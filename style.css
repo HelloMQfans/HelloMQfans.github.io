@@ -393,3 +393,68 @@ footer p {
 
     margin-top: 20px;
 }
+
+/* Narration library cards */
+
+.narration-card {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    max-width: 800px;
+    margin: 45px auto;
+    padding: 25px;
+    background-color: #ebe5d9;
+    border: 1px solid #d2c9bb;
+    border-radius: 4px;
+}
+
+.narration-card-image {
+    flex: 0 0 180px;
+}
+
+.narration-card-image img {
+    width: 180px;
+    height: auto;
+    display: block;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.20);
+}
+
+.narration-card-content {
+    flex: 1;
+}
+
+.narration-card-content h3 {
+    margin-top: 0;
+    font-size: 1.6rem;
+}
+
+.narration-card-author {
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+
+.narration-card-series {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.narration-card-content .button {
+    margin-top: 15px;
+}
+
+@media (max-width: 650px) {
+
+    .narration-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .narration-card-image {
+        flex: none;
+    }
+
+    .narration-card-content {
+        width: 100%;
+    }
+
+}
