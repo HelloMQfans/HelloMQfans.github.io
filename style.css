@@ -1,63 +1,305 @@
 /* =========================================
-   The Narrating Mime
+   THE NARRATING MIME
    Main Website Styles
    ========================================= */
 
+
+/* ---------- General Page ---------- */
+
 body {
     margin: 0;
+
     font-family: Georgia, "Times New Roman", serif;
-    background-color: #f7f4ee;
+
+    background-color: #f5f1e8;
+
     color: #2b2b2b;
-    line-height: 1.6;
+
+    line-height: 1.7;
 }
 
+
+/* ---------- Header ---------- */
+
 header {
-    background-color: #202020;
-    color: white;
-    padding: 30px 20px;
+    background-color: #252525;
+
+    color: #f5f1e8;
+
     text-align: center;
+
+    padding: 40px 20px 30px;
 }
+
 
 header h1 {
     margin: 0;
-    font-size: 2.2rem;
+
+    font-size: 2.6rem;
+
+    letter-spacing: 1px;
 }
+
 
 header p {
     margin: 8px 0 0;
-    font-size: 1.1rem;
+
+    font-size: 1.15rem;
+
+    font-style: italic;
 }
+
+
+/* ---------- Navigation ---------- */
 
 nav {
-    background-color: #333333;
+    background-color: #3a3a3a;
+
     text-align: center;
-    padding: 12px;
+
+    padding: 14px 10px;
 }
 
+
 nav a {
-    color: white;
+    color: #f5f1e8;
+
     text-decoration: none;
-    margin: 0 12px;
+
+    margin: 0 14px;
+
+    font-size: 1rem;
 }
+
 
 nav a:hover {
     text-decoration: underline;
 }
 
+
+/* ---------- Main Content ---------- */
+
 main {
     max-width: 900px;
-    margin: 40px auto;
-    padding: 0 20px;
+
+    margin: 45px auto;
+
+    padding: 0 25px;
 }
 
-h2 {
-    font-size: 1.8rem;
+
+main h2 {
+    font-size: 2rem;
+
+    margin-bottom: 20px;
 }
+
+
+main h3 {
+    font-size: 1.4rem;
+
+    margin-top: 35px;
+}
+
+
+main p {
+    font-size: 1.05rem;
+}
+
+
+/* ---------- Links ---------- */
+
+main a {
+    color: #5b3a29;
+
+    font-weight: bold;
+}
+
+
+main a:hover {
+    text-decoration: none;
+}
+
+
+/* ---------- Lists ---------- */
+
+main ul {
+    padding-left: 25px;
+}
+
+
+/* ---------- Footer ---------- */
 
 footer {
-    background-color: #202020;
-    color: white;
+    background-color: #252525;
+
+    color: #f5f1e8;
+
     text-align: center;
-    padding: 20px;
+
+    padding: 25px 20px;
+
+    margin-top: 60px;
+}
+
+
+footer p {
+    margin: 0;
+
+    font-size: 0.9rem;
+}
+
+/* ---------- Narration Pages ---------- */
+
+.narration {
+    text-align: center;
+}
+
+
+.narration h2 {
+    font-size: 2.3rem;
+
+    margin-bottom: 5px;
+}
+
+
+.narration .author {
+    font-size: 1.2rem;
+
+    margin: 0;
+}
+
+
+.narration .series {
+    font-style: italic;
+
+    margin-top: 5px;
+
+    margin-bottom: 30px;
+}
+
+
+/* ---------- Cover Placeholder ---------- */
+
+.cover-placeholder {
+    width: 280px;
+
+    height: 380px;
+
+    margin: 30px auto;
+
+    background-color: #ddd7ca;
+
+    border: 1px solid #c4bcae;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+}
+
+
+.cover-placeholder p {
+    color: #666;
+
+    font-style: italic;
+}
+
+
+/* ---------- YouTube Section ---------- */
+
+.youtube-box {
+    background-color: #ebe5d9;
+
+    padding: 25px;
+
+    margin: 40px auto;
+
+    max-width: 650px;
+
+    border-radius: 4px;
+}
+
+
+.youtube-box h3 {
+    margin-top: 0;
+}
+
+
+/* ---------- Buttons ---------- */
+
+.button,
+.download-button {
+    display: inline-block;
+
+    background-color: #5b3a29;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    padding: 10px 18px;
+
+    margin: 6px;
+
+    border-radius: 4px;
+}
+
+
+.button:hover,
+.download-button:hover {
+    text-decoration: underline;
+}
+
+
+/* ---------- Narration Sections ---------- */
+
+.narration section {
+    text-align: left;
+
     margin-top: 50px;
+
+    padding-top: 20px;
+
+    border-top: 1px solid #d2c9bb;
+}
+
+
+.narration section h3 {
+    margin-top: 0;
+}
+
+
+/* ---------- Download Area ---------- */
+
+.download-area {
+    text-align: center;
+
+    margin-top: 20px;
+}
+
+/* ---------- Narration Cover Image ---------- */
+
+.cover-image {
+    text-align: center;
+
+    margin: 30px auto;
+}
+
+
+.cover-image img {
+    max-width: 100%;
+
+    width: 280px;
+
+    height: auto;
+
+    display: block;
+
+    margin: 0 auto;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.20);
 }
