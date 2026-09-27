@@ -701,3 +701,58 @@ footer p {
     font-style: italic;
     margin-top: 5px;
 }
+
+/* Site logo and header */
+
+.site-header {
+    background-color: #252525;
+    color: #f5f1e8;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+.site-header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.site-logo {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.site-title h1 {
+    margin: 0;
+    font-size: 2.6rem;
+    letter-spacing: 1px;
+}
+
+.site-title p {
+    margin: 8px 0 0;
+    font-size: 1.15rem;
+    font-style: italic;
+}
+
+@media (max-width: 650px) {
+
+    .site-header-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .site-logo {
+        width: 75px;
+        height: 75px;
+    }
+
+    .site-title h1 {
+        font-size: 2rem;
+    }
+
+}
