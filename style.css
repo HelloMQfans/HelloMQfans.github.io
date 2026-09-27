@@ -617,3 +617,21 @@ footer p {
     gap: 8px;
     margin-top: 15px;
 }
+
+/* About page */
+
+.about-section {
+    max-width: 800px;
+    margin: 45px auto;
+    padding-top: 25px;
+    border-top: 1px solid #d2c9bb;
+}
+
+.about-section:first-of-type {
+    border-top: none;
+    padding-top: 0;
+}
+
+.about-section h3 {
+    margin-top: 0;
+}
